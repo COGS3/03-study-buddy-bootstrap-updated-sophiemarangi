@@ -1,0 +1,188 @@
+#title {
+    background-color: #71a2a8;
+}
+
+h1 {
+    font-family: 'IM Fell DW Pica', serif;
+    font-weight: 400;
+    font-size: 3rem;
+    font-style: italic;
+    line-height: 1.5;
+    color: #f7fad4;
+}
+
+h2 {
+    color: #71a2a8;
+    font-family: 'IM Fell DW Pica';
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'IM Fell DW Pica';
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+    font-family: 'Solway', 'serif';
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+    font-family: 'Solway', 'serif';
+    color: #f7fad4;
+}
+
+.navbar-toggler {
+    color: #f7fad4;
+}
+
+.navbar-brand {
+    font-family: 'IM Fell DW Pica';
+    font-size: 2.5rem;
+    font-weight: 1.5;
+    color:#f7fad4;
+}
+
+.navbar-item {
+    padding: 0 18px;
+    color: #f7fad4;
+}
+
+.nav-link {
+    font-family: 'IM Fell DW Pica', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+    font-family: 'IM Fel DW Pica';
+}
+
+/* Title Image */
+
+.title-image {
+    position: absolute;
+    padding: 0% 15%;
+}
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #f7fad4;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #71a2a8;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #71a2a8;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #71a2a8;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+    background-color: #71a2a8;
+    color: #71a2a8;
+}
+
+.carousel-text {
+    color: #f7fad4;
+    font-family: 'Solway', 'Serif';
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#press {
+    background-color: #71a2a8;
+    text-align: center;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+    background-color: transparent
+}
+
+/*Pricing Section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+    background-color: #f7fad4;
+}
+
+.pricing-header {
+    color: #71a2a8;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/*Call To Action Section CTA */
+
+#cta {
+    background-color: #71a2a8;
+    color: #f7fad4;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'IM Fell DW Pica';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #f7fad4;
+}
+
+/*Media Query Section */
+
+@media (max-width: 1028px){
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
